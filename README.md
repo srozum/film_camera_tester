@@ -15,7 +15,6 @@ This camera tester kit allows you to perform various **time based** tests and ca
 
 ### Features and characteristics
 
-Firmvare version 2.3
 
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
 - Measures timings of focal plane shutters with cutrains traveling vertically or horizontally.
@@ -34,7 +33,7 @@ Firmvare version 2.3
   - Accuracy may vary during real life measurements with different light sources and cameras.
 
 
-List of implemented Modes and Operation Manual
+More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
 
 
 ### Features in development
@@ -48,8 +47,6 @@ List of implemented Modes and Operation Manual
 ### Buy or DIY
 
 The easiest way to get the hardware is to purchase a Kit (assembled or not assembled) from my [Tindie store]().
-
-Assembly instructions and full list of components you can find on [Wiki]()
 
 
 ### Big Thanks to
