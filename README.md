@@ -34,7 +34,7 @@ Firmvare version 2.3
   - Accuracy may vary during real life measurements with different light sources and cameras.
 
 
-List of implemented measuring Modes and
+List of implemented Modes and Operation Manual
 
 
 ### Features in development
@@ -47,9 +47,9 @@ List of implemented measuring Modes and
 
 ### Buy or DIY
 
-The easiest way to get the hardware is to purchase a Kit (assembled or not assembled) from my [Tindie store](https://www.tindie.com/products/jiripraus/opentherm-arduino-shield-diy-kit).
+The easiest way to get the hardware is to purchase a Kit (assembled or not assembled) from my [Tindie store]().
 
-Assembly instructions and full list of components
+Assembly instructions and full list of components you can find on [Wiki]()
 
 
 ### Big Thanks to
