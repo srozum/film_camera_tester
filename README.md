@@ -6,14 +6,14 @@ The idea of using Arduino for measuring camera shutter timings is not new. What 
 Usually, time counting and/or light accumulating methods are used to test cameras. For the time counting method, you need a light sensor, a time counter, and a simple light source. With such setup you can measure exposure time(s) provided by a shutter, curtains travel speed of a focal plane shutter, flash sync contact delays, etc.
 For the second method, you'll need a photosensor able to measure the amount of light and a calibrated light source. With such setup, you'll be able to measure actual exposure produced by a system "camera+lens", light meter accuracy, operation of auto-exposure cameras, etc.
 
-This camera tester kit allows you to perform various **time-based** tests and calibrations of film cameras. I continue to work on the production design of a light source as well as additional sensors for light measuring modes and enclosure options.
+This camera tester kit allows you to perform various **time-based** tests and calibrations of film cameras. I continue to work on the production design of an additional sensors for light measuring modes and enclosure options.
 
 
 ![Film Camera Tester](assets/images/product-small-1.jpg)
 
 
 
-### Features and characteristics
+### Features and characteristics (Firmware 2.4)
 
 
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
@@ -38,8 +38,6 @@ More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
 
 ### Features in development
 
-- Calibrated Light Source
-  - Light Unit socket has pins to control the brightness of the light source, fan, and receiving feedback signal. Few versions of Light Units were designed and work on the production version is in progress.
 - Measuring modes based on a light accumulating method to measure exposure values and test automatic cameras
   - Socket B has I2C bus pins connected to currently not used pins. Those pins are going to be used by a light measuring sensor.
 
