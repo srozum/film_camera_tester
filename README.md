@@ -13,7 +13,7 @@ This camera tester kit allows you to perform various **time-based** tests and ca
 
 
 
-### Features and characteristics (Firmware 2.4)
+### Features and characteristics (Firmware 2.5)
 
 
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
@@ -31,6 +31,9 @@ This camera tester kit allows you to perform various **time-based** tests and ca
 - Range of measured speeds from 1s to 1/8000
 - Accuracy 10µs (measured in the pre-set environment, using a signal generator and specialized light source)
   - Accuracy may vary during real-life measurements with different light sources and cameras.
+- Allows to check accuracy and calibrate light meters and light meters built into a cameras.
+  - Light Source brightness is adjustable within 4-16EV range
+  - Light Source can be switched between K12.5 and K14.03
 
 
 More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
