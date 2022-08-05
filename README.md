@@ -13,7 +13,7 @@ This camera tester kit allows you to perform various **time-based** tests and ca
 
 
 
-### Features and characteristics (Firmware 2.5)
+### Features and characteristics (Firmware 2.6)
 
 
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
@@ -43,6 +43,7 @@ More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
 
 - Measuring modes based on a light accumulating method to measure exposure values and test automatic cameras
   - Socket B has I2C bus pins connected to currently not used pins. Those pins are going to be used by a light measuring sensor.
+- Estimate effective speed of a leaf shutter using mapping to statistical data.
 
 
 ### Buy or DIY
