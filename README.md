@@ -3,20 +3,21 @@
 
 The idea of using Arduino for measuring camera shutter timings is not new. What I've tried to do here, is to make a modular system with a set of features normally offered in professional testers, at the same time to keep its design simple and available to reproduce using off-the-shelf components.
 
-Usually, time counting and/or light accumulating methods are used to test cameras. For the time counting method, you need a light sensor, a time counter, and a simple light source. With such setup you can measure exposure time(s) provided by a shutter, curtains travel speed of a focal plane shutter, flash sync contact delays, etc.
+Usually, time counting and/or light integration methods are used to test cameras. For the time counting method, you need a light sensor, a time counter, and a simple light source. With such setup you can measure exposure time(s) provided by a shutter, curtains travel speed of a focal plane shutter, flash sync contact delays, etc.
 For the second method, you'll need a photosensor able to measure the amount of light and a calibrated light source. With such setup, you'll be able to measure actual exposure produced by a system "camera+lens", light meter accuracy, operation of auto-exposure cameras, etc.
 
-This camera tester kit allows you to perform various **time-based** tests and calibrations of film cameras. I continue to work on the production design of an additional sensors for light measuring modes and enclosure options.
+This tester allows you to perform both time-based and light integration tests and calibrations of film cameras.
 
 
 ![Film Camera Tester](assets/images/product-small-1.jpg)
 
 
 
-### Features and characteristics (Firmware 2.6)
+### Features and characteristics
 
 
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
+  - For leaf shutters of size #00 and #0 calculates estimated effective speed according to efficiency curve.
 - Measures timings of focal plane shutters with curtains traveling vertically or horizontally.
   - Results can be represented in a few different ways to help you detect different flaws in a shutter operation, such as curtains capping or tapering, uneven travel speed, etc.
 - Measures delays between flash contact and shutter opening.
@@ -34,16 +35,12 @@ This camera tester kit allows you to perform various **time-based** tests and ca
 - Allows to check accuracy and calibrate light meters and light meters built into a cameras.
   - Light Source brightness is adjustable within 4-16EV range
   - Light Source can be switched between K12.5 and K14.03
+- Measures actual exposure at the film plane, which allows to test fully automatic, aperture or shutter priority cameras.
+  - Accuracy ±0.1EV within 6-14EV range, although full range 4-16EV of a Light Unit can be used for testing.
+  - Resolution -0.03/+0.01EV
 
 
 More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
-
-
-### Features in development
-
-- Measuring modes based on a light accumulating method to measure exposure values and test automatic cameras
-  - Socket B has I2C bus pins connected to currently not used pins. Those pins are going to be used by a light measuring sensor.
-- Estimate effective speed of a leaf shutter using mapping to statistical data.
 
 
 ### Buy or DIY
