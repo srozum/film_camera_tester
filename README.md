@@ -20,15 +20,16 @@ This tester allows you to perform both time-based and light integration tests an
   - For leaf shutters of size #00 and #0 calculates estimated effective speed according to efficiency curve.
 - Measures timings of focal plane shutters with curtains traveling vertically or horizontally.
   - Results can be represented in a few different ways to help you detect different flaws in a shutter operation, such as curtains capping or tapering, uneven travel speed, etc.
+  - Automatically re-calculates curtains travel time according to selected frame width or height.
 - Measures delays between flash contact and shutter opening.
   - Automatically identifies X, M, or FP modes.
 - Takes a series of measurements, and calculates average stats.
   - Number of tests in series can be selected in the Settings menu between 3, 5, 10, or 20.
+- Allows to measure efficiency thus effective speed of a leaf shutters from size #00 and bigger.
 - Automatically detects the type of connected Sensors, and notifies you if wrong sensor is connected for a specific Mode.
 - Automatically detects target speed used to calculate the error.
   - Target speed can be set to "Auto" or pre-set from a list of standard speeds.
   - You also can select between two sets of standard speeds (Old style like 1/50 or New style like 1/60), depending on the type of shutter you are testing.
-- Automatically re-calculates curtains travel time according to selected frame width or height.
 - Range of measured speeds from 1s to 1/8000
 - Accuracy 10µs (measured in the pre-set environment, using a signal generator and specialized light source)
   - Accuracy may vary during real-life measurements with different light sources and cameras.
