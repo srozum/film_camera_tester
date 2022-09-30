@@ -16,8 +16,11 @@ This tester allows you to perform both time-based and light integration tests an
 ### Features and characteristics
 
 
+- Measures actual exposure at the film plane, which allows to test fully automatic, aperture or shutter priority cameras.
+  - Accuracy ±0.05EV within 6-14EV range, although full range 4-16EV of a Light Unit can be used for testing.
+  - Resolution 0.01EV
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
-  - For leaf shutters of size #00 and #0 calculates estimated effective speed according to efficiency curve.
+  - In v2.7 only: For leaf shutters of size #00 and #0 calculates estimated effective speed according to efficiency curve.
 - Measures timings of focal plane shutters with curtains traveling vertically or horizontally.
   - Results can be represented in a few different ways to help you detect different flaws in a shutter operation, such as curtains capping or tapering, uneven travel speed, etc.
   - Automatically re-calculates curtains travel time according to selected frame width or height.
@@ -36,9 +39,6 @@ This tester allows you to perform both time-based and light integration tests an
 - Allows to check accuracy and calibrate light meters and light meters built into a cameras.
   - Light Source brightness is adjustable within 4-16EV range
   - Light Source can be switched between K12.5 and K14.03
-- Measures actual exposure at the film plane, which allows to test fully automatic, aperture or shutter priority cameras.
-  - Accuracy ±0.1EV within 6-14EV range, although full range 4-16EV of a Light Unit can be used for testing.
-  - Resolution -0.03/+0.01EV
 
 
 More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
