@@ -17,7 +17,7 @@ This tester allows you to perform both time-based and light integration tests an
 
 
 - Measures actual exposure at the film plane, which allows to test fully automatic, aperture or shutter priority cameras.
-  - Accuracy ±0.05EV within 6-14EV range, although full range 4-16EV of a Light Unit can be used for testing.
+  - Accuracy ±0.05EV within 6-14EV range, although full range 5-17EV of a Light Unit can be used for testing.
   - Resolution 0.01EV
 - Measures exposure time at the center of a frame of simple (leaf) and focal plane shutters of 35mm and Medium Format (6x6 or 6x45 using adapter) cameras.
   - In v2.7 only: For leaf shutters of size #00 and #0 calculates estimated effective speed according to efficiency curve.
@@ -37,8 +37,8 @@ This tester allows you to perform both time-based and light integration tests an
 - Accuracy 10µs (measured in the pre-set environment, using a signal generator and specialized light source)
   - Accuracy may vary during real-life measurements with different light sources and cameras.
 - Allows to check accuracy and calibrate light meters and light meters built into a cameras.
-  - Light Source brightness is adjustable within 4-16EV range
-  - Light Source can be switched between K12.5 and K14.03
+  - Light Source brightness is adjustable within 5-17EV range
+  - Light Source can be switched between K12.5 and K14.03 light levels
 
 
 More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
@@ -46,10 +46,16 @@ More information on [Wiki](https://github.com/srozum/film_camera_tester/wiki).
 
 ### Buy or DIY
 
-The easiest way to get the hardware is to purchase a Kit (assembled or not assembled) from my [Tindie store](https://www.tindie.com/products/srozum/film-camera-tester/).
+Since the SRT-2 Kits (assembled or not assembled), which were offered on my Tindie store, are all sold and will not be produced anymore, your only option is to make it yourself.
+
+In '/assets' folder you can find all schematics, PCB production files, and STLs for 3D printed parts necessary to build the Tester. I recommend you carefully read Wiki pages first, explore schematics and product photos before you start ordering the parts.
+
+If you have questions or would like to collaborate on Tester design with other DIYers, check [Discussions](https://github.com/srozum/film_camera_tester/discussions) page.
 
 
 ### Big Thanks to
+
+Big thanks to everyone who supported the project from the beginning.
 
 Similar projects that helped me to start my own
 
