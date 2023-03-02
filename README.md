@@ -52,6 +52,9 @@ In '/assets' folder you can find all schematics, PCB production files, and STLs 
 
 If you have questions or would like to collaborate on Tester design with other DIYers, check [Discussions](https://github.com/srozum/film_camera_tester/discussions) page.
 
+If you like this project, want to see it developing, or just feeling generous, consider buying me a beer
+
+<a href="https://paypal.me/srozum/“><img src=“assets/blue.svg" height="40"></a>
 
 ### Big Thanks to
 
