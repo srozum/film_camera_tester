@@ -54,7 +54,7 @@ If you have questions or would like to collaborate on Tester design with other D
 
 If you like this project, want to see it developing, or just feeling generous, consider buying me a beer
 
-<a href="https://paypal.me/srozum/“><img src=“assets/blue.svg" height="40"></a>
+<a href="https://paypal.me/srozum/"><img src="assets/blue.svg" height="40"></a>
 
 ### Big Thanks to
 
