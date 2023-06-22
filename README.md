@@ -50,12 +50,6 @@ Since the SRT-2 Kits (assembled or not assembled), which were offered on my Tind
 
 In '/assets' folder you can find all schematics, PCB production files, and STLs for 3D printed parts necessary to build the Tester. I recommend you carefully read Wiki pages first, explore schematics and product photos before you start ordering the parts.
 
-If you have questions or would like to collaborate on Tester design with other DIYers, check [Discussions](https://github.com/srozum/film_camera_tester/discussions) page.
-
-If you like this project, want to see it developing, or just feeling generous, consider buying me a beer
-
-<a href="https://paypal.me/srozum/"><img src="assets/blue.svg" height="40"></a>
-
 ### Big Thanks to
 
 Big thanks to everyone who supported the project from the beginning.
